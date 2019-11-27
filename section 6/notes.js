@@ -71,3 +71,36 @@
 
 // try to use const values if you will check that in future if statement and refere to that one not to string
 //   // //   // //   // //   // //   // //   //
+
+// for  loop
+const a = [1, 2, 3, 6, 7, 8];
+
+// for (let i = 0; i < a.length; i++) {
+//   console.log(a[i]);
+// }
+let i = 9;
+// while (i < a.length ) {
+//   console.log(a[i]);
+//   i++;
+// }
+// do {
+//   console.log(a[4]);
+//   i++;
+// } while (i < a.length);
+
+// let car = { type: 'Fiat', model: '500', color: 'white' };
+
+// for (const key in car) {
+//   console.log(`${key} ${car[key]}`);
+// }
+// for of loop
+// for (const element of a) {
+//   console.log(element);
+// }
+let sum = 0;
+for (let i = 2; i <= 6; i++) {
+  sum = sum + i;
+  console.log(i);
+  console.log(sum);
+}
+// console.log(sum);
